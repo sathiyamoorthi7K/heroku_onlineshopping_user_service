@@ -1,0 +1,5 @@
+com\ecommerce\userservice\exception\CustomizedResponseEntityExceptionHandler.class
+com\ecommerce\userservice\service\impl\UserServiceImpl.class
+com\ecommerce\userservice\service\UserService.class
+com\ecommerce\userservice\OnlineShoppingUserServiceApplication.class
+com\ecommerce\userservice\controller\UserController.class

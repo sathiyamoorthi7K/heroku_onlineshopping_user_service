@@ -1,0 +1,15 @@
+server:
+   port: 8001
+
+mongodb:
+   uri: mongodb://localhost:27017/?serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&3t.uriVersion=3&3t.connection.name=OnlineShopping&3t.alwaysShowAuthDB=true&3t.alwaysShowDBFromUserRole=true
+   dbname: OnlineShopping
+management:
+   endpoints:
+      web:
+         exposure:
+            include: "*"
+
+secret: sathiya
+expirationtime: 86400000
+springdoc.swagger-ui.disable-swagger-default-url: true
